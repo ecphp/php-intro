@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Introduction to PHP</title>
+
+    <link rel="stylesheet" href="lib/reveal.js/css/reset.css">
+    <link rel="stylesheet" href="lib/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="lib/reveal.js/css/theme/sky.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/reveal.js/lib/css/monokai.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'lib/reveal.js/css/print/pdf.css' : 'lib/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="src/intro.md" id="intro"></section>
+        <section>
+          <section data-markdown="src/agenda-1.md" id="agenda"></section>
+          <section data-markdown="src/what-is-php.md" id="what-is-php"></section>
+          <section data-markdown="src/php-versions.md" id="php-versions"></section>
+          <section data-markdown="src/php-cli-cgi.md" id="php-cli-cgi"></section>
+          <section data-markdown="src/tools.md" id="tools"></section>
+          <section data-markdown="src/hello-world.md" id="hello-world"></section>
+          <section data-markdown="src/basic-syntax.md" id="basic-syntax"></section>
+          <section data-markdown="src/types.md" id="types"></section>
+          <section data-markdown="src/variables.md" id="variables"></section>
+          <section data-markdown="src/constants.md" id="constants"></section>
+          <section data-markdown="src/expressions.md" id="expressions"></section>
+          <section data-markdown="src/operators.md" id="operators"></section>
+          <section data-markdown="src/control-structures.md" id="control-structures"></section>
+        </section>
+        <section>
+          <section data-markdown="src/agenda-2.md" id="agenda"></section>
+          <section data-markdown="src/functions.md" id="functions"></section>
+          <section data-markdown="src/namespaces.md" id="namespaces"></section>
+          <section data-markdown="src/classes.md" id="classes"></section>
+          <section data-markdown="src/interfaces.md" id="interfaces"></section>
+          <section data-markdown="src/traits.md" id="traits"></section>
+          <section data-markdown="src/errors-exceptions.md" id="errors-exceptions"></section>
+          <section data-markdown="src/debugging.md" id="debugging"></section>
+          <section data-markdown="src/security.md" id="security"></section>
+          <section data-markdown="src/databases.md" id="databases"></section>
+          <section data-markdown="src/dependency-management.md" id="dependency-management"></section>
+          <section data-markdown="src/testing.md" id="testing"></section>
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/reveal.js/js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [
+          { src: 'lib/reveal.js/plugin/markdown/marked.js' },
+          { src: 'lib/reveal.js/plugin/markdown/markdown.js' },
+          { src: 'lib/reveal.js/plugin/notes/notes.js', async: true },
+          { src: 'lib/reveal.js/plugin/highlight/highlight.js', async: true }
+        ]
+      });
+    </script>
+  </body>
+</html>
