@@ -1,6 +1,3 @@
-## Classes
-
-```
 <?php
 class Bar
 {
@@ -13,4 +10,3 @@ class Bar
 $baz = new Bar();
 $baz->displayFoo();
 ?>
-```
