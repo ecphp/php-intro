@@ -90,6 +90,13 @@ There are different types of classes:
 * Abstract classes
 * Final classes
 
+A class can embed multiple different things:
+
+* traits
+* constants (public, protected, private)
+* properties (public, protected, private)
+* methods (abstract, public, protected, private)
+
 ---
 
 ## Abstract classes
