@@ -149,4 +149,4 @@ $sum = sum(1, 2, 3, 4, 5); // 15
 
 ## Exercise
 
-* Find an alternative way using `array_sum()` or `array_reduce()`.
+* Find an alternative way of implementing the previous function using `array_sum()` or `array_reduce()`.
