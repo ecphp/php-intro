@@ -2,7 +2,7 @@
 
 ### Arguments and return values
 
-Passed by reference
+Just like in C, parameters can be passed by reference. 
 
 ```
 <?php
