@@ -15,3 +15,7 @@ function square($number)
 
 $value = square(12); // 144
 ```
+
+### Note
+
+A function has its own scope and does not interfere with the rest.

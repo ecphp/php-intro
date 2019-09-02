@@ -4,6 +4,8 @@
 
 Since PHP 5.6, PHP has support for variable-length argument lists in user-defined functions.
 
+These parameters are called: `variadic`
+
 ```
 <?php
 function sum(...$numbers)
