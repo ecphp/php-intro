@@ -5,10 +5,13 @@
 -- *getcomposer.org*
 
 ```
+composer require monolog/monolog
+```
+
+```
 {
-    "name": "acme/hello-world",
     "require": {
-        "monolog/monolog": "1.0.*"
+        "monolog/monolog": "^2.0"
     }
 }
 ```
