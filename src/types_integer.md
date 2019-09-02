@@ -1,6 +1,7 @@
 ## Integer
 
-> An integer is a number of the set ℤ = {..., -2, -1, 0, 1, 2, ...}.
+> An integer is a number of the set<br />
+ℤ = {..., -2, -1, 0, 1, 2, ...}
 
 -- *php.net*
 
