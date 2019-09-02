@@ -1,10 +1,5 @@
 ## Functions
 
-You have to remind that you can do only 2 things with a PHP function:
-
-* Create a function
-* Calling a function
-
 ```
 <?php
 function square(int $number)
@@ -14,3 +9,10 @@ function square(int $number)
 
 $value = square(12); // 144
 ```
+
+---
+
+You have to remind that you can do only 2 things with a PHP function:
+
+* Create a function
+* Calling a function

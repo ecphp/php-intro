@@ -14,8 +14,8 @@ function square($number)
 $value = square(12); // 144
 ```
 
-#### Note
+---
 
 A **pure** function is a function which return the same value given the same arguments.
 
-**Pro tip**: Try to always create pure function when you develop to reduce the overall complexity of your software.
+**Pro tip**: Use them as much as possible!

@@ -15,6 +15,6 @@ function i_am_a_lazy_function_that_does_nothing_but_chilling() {
 }
 ```
 
-### Note
+---
 
-- Functions do not need to be defined before being used.
+Functions do not need to be defined before being used.

@@ -22,6 +22,6 @@ function sum(...$numbers)
 $sum = sum(1, 2, 3, 4, 5); // 15
 ```
 
-#### Note
+---
 
 * Find an alternative way using `array_sum()` or `array_reduce()`.

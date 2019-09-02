@@ -22,3 +22,10 @@ function sum(float ...$numbers)
     return $result;
 }
 ```
+
+---
+
+It's always better to use a strict typed way of programming, but keep in mind that
+all the PHP versions that are still used today are not always compatible.
+
+Therefore, make sure to know what you're doing when you decide to use it.

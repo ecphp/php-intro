@@ -22,3 +22,7 @@ $absolute = function absolute($number)
 
 $result = $absolute(-42); // 42
 ```
+
+---
+
+Do not forget to check the **src/examples** directory.
