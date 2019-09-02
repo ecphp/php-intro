@@ -4,7 +4,9 @@
 - Apache HTTP server, NGINX
 - Web browser, HTTP client
 
-### PHP built-in HTTP server
+---
+
+## PHP built-in HTTP server
 
 ```
 php -S localhost:8000
