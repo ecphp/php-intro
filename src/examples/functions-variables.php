@@ -22,9 +22,9 @@ function very_slow_function($second) {
   return sprintf('%sI waited %s second(s).%s', PHP_EOL, $second, PHP_EOL);
 }
 
-$coin = $memoize('very_slow_function');
+$memoized = $memoize('very_slow_function');
 
-echo $coin(2);
-echo $coin(4);
-echo $coin(2);
-echo $coin(4);
+echo $memoized(2);
+echo $memoized(4);
+echo $memoized(2);
+echo $memoized(4);
