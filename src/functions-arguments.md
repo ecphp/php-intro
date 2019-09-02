@@ -16,7 +16,7 @@ $value = square(); // 0
 
 ---
 
-Just like in C, parameters can be passed by reference. 
+Just like in C, parameters can be passed by reference.
 
 ```
 <?php
@@ -54,13 +54,13 @@ $value = square(12); // 144
 
 ---
 
-A **pure** function is a function which return the same value given the same arguments.
+A **pure** function is a function which returns the same value given the same arguments.
 
 **Pro tip**: Use them as much as possible!
 
 ---
 
-Types may be specified for the arguments or the return of the function. 
+Types may be specified for the arguments or the return of the function.
 
 PHP will automatically assert the type of data passed or returned by the function.
 
@@ -85,10 +85,9 @@ function sum(float ...$numbers)
 
 ---
 
-It's always better to use a strict typed way of programming, but keep in mind that
-all the PHP versions that are still used today are not always compatible.
+It is recommended to use a "strict-typed way" of programming, but keep in mind this feature is not available in older PHP versions (< 7.x).
 
-Therefore, make sure to know what you're doing when you decide to use it.
+Therefore, make sure to know what you are doing when you decide to use it.
 
 ---
 
@@ -110,7 +109,7 @@ $value = square('foo');
 
 ---
 
-## After PHP 7
+## Since PHP 7.0
 
 ```
 <?php
@@ -147,5 +146,7 @@ $sum = sum(1, 2, 3, 4, 5); // 15
 ```
 
 ---
+
+## Exercise
 
 * Find an alternative way using `array_sum()` or `array_reduce()`.
