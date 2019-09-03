@@ -24,7 +24,7 @@ trait HelloWorld {
 #### There are several ways around this restriction:
 
 * Use Traits
-* Use Composition instead of Inheritance
+* Use [Composition instead of Inheritance](https://not-a-number.io/2019/php-composition-and-inheritance)
 
 ---
 
@@ -34,6 +34,8 @@ A Trait is intended to reduce some limitations of single inheritance by enabling
 freely in several independent classes living in different class hierarchies.
 
 Traits is a way for having multiple inheritance in PHP.
+
+More reading: https://not-a-number.io/2018/how-to-use-the-php-traits
 
 ---
 
