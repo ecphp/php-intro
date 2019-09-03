@@ -1,6 +1,6 @@
 ## Classes
 
-```
+```php
 <?php
 class Bar
 {
@@ -32,7 +32,7 @@ Object oriented programming (OOP) has advantages over procedural programming:
 
 ---
 
-```
+```php
 <?php
 
 $account = new BankAccount('John Doe');
@@ -52,7 +52,7 @@ $account->getOwner(); // John Doe
 
 ---
 
-```
+```php
 class BankAccount
 {
   private $owner;
@@ -101,7 +101,7 @@ A class can embed multiple different things:
 
 ## Abstract classes
 
-```
+```php
 abstract class Shape
 {
     public function getArea() {
@@ -120,7 +120,7 @@ abstract class Shape
 
 ---
 
-```
+```php
 final class Square extends Shape
 {
     public function __construct($width, $length) {

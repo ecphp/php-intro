@@ -4,7 +4,7 @@
 
 -- *php.net*
 
-```
+```php
 <?php
 
 interface FooInterface
@@ -16,18 +16,17 @@ interface FooInterface
 
 ---
 
-An interface is a contract. When a class "implements" an interface, it means that
-it will make sure that the class will provide a clear and precise way on how to
-interact with it.
-
-The interface will list all the public methods with their signature and return types and
-also the properties that the class must have.
+* When a class **implements** an interface, it means that PHP will make sure that the class fully respect the contract
+to the letter.
+* An interface is then a **contract**.
+* The interface list all the public methods with their signature and return types and also the properties that a class
+must have.
 
 ---
 
-This will never work.
+This will **never** work.
 
-```
+```php
 <?php
 
 class Foo implements FooInterface {
@@ -40,7 +39,7 @@ class Foo implements FooInterface {
 
 This will work.
 
-```
+```php
 <?php
 
 class Foo implements FooInterface {
@@ -56,9 +55,8 @@ class Foo implements FooInterface {
 
 ---
 
-It is very important to remember that an interface describe a behavior.
-
 As an object can implements multiple interfaces at the same time, it is very
-important to keep your interfaces as small as possible, so they can be reused.
+important to keep your interfaces as small as possible, so they can be reused and you'll be able to have maximum
+flexibility composing your objects. 
 
-Keep in mind that they must describe a behavior first.
+It is very important to remember that an interface describe a behavior.
