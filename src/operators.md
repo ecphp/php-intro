@@ -23,8 +23,8 @@ $x = 1 + 2; // sum
 $x = $y - 2; // substraction
 $x = 10 / 2; // division
 $x = 2 * $y; // multiplication
-$x = $y % 2; // modulo (reminder)
-$x = 3 ** $x; // exponentiation
+$x = $y % 2; // modulo (remainder)
+$x = 3 ** $y; // exponentiation
 ?>
 ```
 
