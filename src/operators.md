@@ -17,14 +17,14 @@
 
 ### Arithmetic operators
 
-```
+```php
 <?php
 $x = 1 + 2; // sum
-$y = 10 / 2; // division
-$z = $x * $y; // multiplication
-$a = $z % 2; // modulo (remainder)
-$b = $a - 1; // subtraction
-$c = $y ** $x; // exponentiation
+$x = $y - 2; // substraction
+$x = 10 / 2; // division
+$x = 2 * $y; // multiplication
+$x = $y % 2; // modulo (reminder)
+$x = 3 ** $x; // exponentiation
 ?>
 ```
 
@@ -32,7 +32,7 @@ $c = $y ** $x; // exponentiation
 
 ### Assignment, increment, decrement
 
-```
+```php
 <?php
 $x = 5;
 echo $x++; // 5
@@ -49,7 +49,7 @@ $x *= 4; // 64
 
 ### Comparison operators
 
-```
+```php
 <?php
 $a = 10;
 $b = '10';
@@ -72,7 +72,7 @@ var_dump($x <=> $y); // returns integer less than, equal to, or greater than zer
 
 ### Logical operators
 
-```
+```php
 <?php
 $a = TRUE;
 $b = FALSE;
@@ -90,7 +90,7 @@ var_dump($a xor $b); // not both
 
 The expression (expr1) ? (expr2) : (expr3) evaluates to expr2 if expr1 evaluates to TRUE, and expr3 if expr1 evaluates to FALSE.
 
-```
+```php
 <?php
 $a = 4;
 $x = $a < 10 ? 5 : 2;
@@ -104,7 +104,7 @@ echo $x;
 
 The expression (expr1) ?? (expr2) evaluates to expr2 if expr1 is NULL, and expr1 otherwise.
 
-```
+```php
 <?php
 $a = NULL;
 $b = $a ?? 'null';
@@ -122,7 +122,7 @@ var_dump($y);
 
 The name of the desired type is written in parentheses before the variable which is to be cast.
 
-```
+```php
 <?php
 $a = '1';
 $x = 12;
