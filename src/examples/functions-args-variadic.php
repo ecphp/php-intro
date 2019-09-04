@@ -1,5 +1,8 @@
 <?php
-function sum(...$numbers)
+
+declare(strict_types=1);
+
+function sum(float ...$numbers)
 {
   $result = 0;
 
@@ -10,6 +13,20 @@ function sum(...$numbers)
   return $result;
 }
 
-$result = sum(1,2,3,4,5); // 15
+function sum1(float ...$numbers)
+{
+  return array_sum($numbers);
+}
 
-print_r($result);
+function sum2(float ...$numbers)
+{
+  $callback = function($carry, $item) {
+    return $carry + $item;
+  };
+
+  return array_reduce($numbers, $callback);
+}
+
+echo 'Sum using sum(): ' . sum(1,2,3,4,5) . PHP_EOL;
+echo 'Sum using sum1(): ' . sum1(1,2,3,4,5) . PHP_EOL;
+echo 'Sum using sum2(): ' . sum2(1,2,3,4,5) . PHP_EOL;

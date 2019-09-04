@@ -7,7 +7,7 @@ This opens the gate to an advanced way of programming, a more "_functional_" way
 ```
 <?php
 
-$absolute = function absolute($number)
+$absolute = function ($number)
 {
     $square = function ($number) {
         return $number ** 2;
