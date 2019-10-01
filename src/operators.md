@@ -34,8 +34,8 @@ $x = 3 ** $y; // exponentiation
 
 ```php
 <?php
-$mystring = 'Hello' . ', ' . 'World !';
-echo $mystring . PHP_EOL;
+$str = 'Hello' . ', ' . 'World !';
+echo $str . PHP_EOL;
 ?>
 ```
 
