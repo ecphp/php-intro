@@ -30,6 +30,17 @@ $x = 3 ** $y; // exponentiation
 
 ---
 
+### Concatenation
+
+```php
+<?php
+$mystring = 'Hello' . ', ' . 'World !';
+echo $mystring . PHP_EOL;
+?>
+```
+
+---
+
 ### Assignment, increment, decrement
 
 ```php
