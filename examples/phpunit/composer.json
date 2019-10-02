@@ -1,0 +1,31 @@
+{
+    "name": "drupol/shape",
+    "type": "library",
+    "description": "TODO",
+    "require-dev": {
+        "phpunit/phpunit": "^8.3",
+        "drupol/php-conventions": "^1.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pol Dellaiera",
+            "email": "pol.dellaiera@protonmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "drupol\\shape\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "drupol\\tests\\shape\\": "tests"
+        }
+    },
+    "extra": {
+        "grumphp": {
+            "config-default-path": "vendor/drupol/php-conventions/config/php71/grumphp.yml"
+        }
+    }
+}
