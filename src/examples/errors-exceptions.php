@@ -2,8 +2,6 @@
 
 declare(strict_types=1);
 
-include 'vendor/autoload.php';
-
 function square_root($number) {
   if ($number < 0) {
     throw new InvalidArgumentException('The number must be positive.');
