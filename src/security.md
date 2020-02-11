@@ -53,6 +53,8 @@ echo '<a href="http://example.com/page?input="' . $input . '">Link</a>';
 
 ### SQL injection
 
+SQL injection flaws are introduced when a dynamic database query includes user supplied input.
+
 ```
 <?php
 $username = $_POST['username'];
@@ -61,6 +63,8 @@ $query = "SELECT * FROM users WHERE user_name='" . $username
        . "' AND user_password='" . $password . "';";
 ?>
 ```
+
+This code reveals another issue in the application: users' passwords are stored in the database in plain text.
 
 ---
 
